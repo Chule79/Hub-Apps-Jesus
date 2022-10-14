@@ -1,0 +1,72 @@
+.bienVenida {
+    grid-column: 5/9;
+    grid-row: 1;
+    justify-self: center;
+    
+}
+
+.tresRaya{
+    background-color: rgb(250, 176, 5);
+    border: black solid 2px;
+    grid-column: 2/5;
+    grid-row: 2/5;
+    justify-self: center;
+    width: 100%;
+}
+
+.memoryGame{
+    background-color: rgb(130, 201, 30);
+    border: black solid 2px;
+    grid-column: 2/5;
+    grid-row: 6/9;
+    justify-self: center;
+    width: 100%;
+}
+
+
+.pokeApi{
+    background-color: rgb(250, 82, 82);
+    border: black solid 2px;
+    grid-column: 2/5;
+    grid-row: 10/13;
+    justify-self: center;
+    width: 100%;
+}
+
+
+.topo{
+    background-color: rgb(21, 170, 191);
+    border: black solid 2px;
+    grid-column: 9/12;
+    grid-row: 2/5;
+    justify-self: center;
+    width: 100%;
+}
+
+
+.hangMan{
+    background-color: rgb(190, 75, 219);
+    border: black solid 2px;
+    grid-column: 9/12;
+    grid-row: 6/9;
+    justify-self: center;
+    width: 100%;
+}
+
+
+.quizNeo{
+    background-color: rgb(253, 126, 20);
+    border: black solid 2px;
+    grid-column: 9/12;
+    grid-row: 10/13;
+    justify-self: center;
+    width: 100%;
+}
+
+
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 18%;
+}

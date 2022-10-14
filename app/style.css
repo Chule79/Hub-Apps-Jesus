@@ -1,0 +1,24 @@
+@font-face{
+    font-family: ArcadeFont;
+    src: url(./public/fonts/ARCADE_I.TTF);
+    font-display: block;
+}
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+    font-family: ArcadeFont ;
+}
+
+header{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    height: 10vh;
+}
+

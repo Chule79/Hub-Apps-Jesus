@@ -1,0 +1,45 @@
+#app{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 90vh;
+}
+
+.neolandCage{
+    grid-area: my-neoland;
+    grid-column: 5/9;
+    grid-row: 5;
+    justify-self: center;
+    align-self: center;
+}
+
+.helloCage{
+    grid-area: my-hello;
+    grid-column: 5/9;
+    grid-row: 7;
+    justify-self: center;
+    align-self: center;
+}
+
+.nicknameCage{
+    grid-area: my-nickname;
+    grid-column: 5/9;
+    grid-row: 8;
+    justify-self: center;
+    align-self: center;
+}
+
+.botonCage{
+    grid-area: my-btnIni;
+    grid-column: 5/9;
+    grid-row: 9;
+    justify-self: center;
+    align-self: center;
+    
+}
+
+.botonCage button{
+    width: 6.25rem;
+    height: 2.5rem;
+    
+}
