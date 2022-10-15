@@ -1,8 +1,9 @@
 
+
 export const changeColor = () => {
    const btnColores = document.querySelector("#btnColor") 
    btnColores.addEventListener("click", () =>{
-
+      
     const min = 0
     const max = 251
         const color1 = Math.trunc(Math.random( )*(max - min))

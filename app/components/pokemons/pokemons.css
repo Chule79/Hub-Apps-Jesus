@@ -1,0 +1,89 @@
+.pokeNav{ 
+    grid-column: 1/12;
+    grid-row: 1;
+    justify-self: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 1fr;
+   
+
+}
+
+ul{
+    display: flex;
+    flex-wrap: nowrap;
+    list-style: none;
+    text-decoration: none;
+    grid-column: 4/12;
+    justify-self: center;
+    align-self: center;
+    width: 100%;
+    gap: 1rem;
+}
+.pokeTipo{
+    align-self: center;
+}
+.searchPokemon{
+    align-self: center;
+}
+
+
+ul > li {
+    padding-top: 1rem;
+}
+
+ul > li > a{
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 2rem;
+    -webkit-text-stroke: 0.01px rgb(0, 255, 12);  
+    color: black;
+}
+
+img{
+    width: 200px;
+    grid-column: 1/5;
+    grid-row: 1;
+    justify-self: center;
+    
+}
+ 
+input[type=checkbox]  {
+    display: none;
+    }
+
+
+
+@media screen and (max-width: 1000px){  
+    ul{
+    display: none;
+    }
+    
+    input:checked  ~ ul{
+    display:flex;
+    flex-wrap: wrap;
+    }
+    
+    input[type=checkbox]  {
+    display: none;
+    }
+    
+    label {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 50%;
+    width: 65px;
+    text-align: center;
+    align-items: center;
+    }
+
+    
+    
+}
+
+
+
+
+
