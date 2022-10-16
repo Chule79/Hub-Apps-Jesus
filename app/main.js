@@ -4,6 +4,7 @@ import { changeColor } from './events/colores'
 import { initUsuario } from './events/inicioEvent'
 import {  getData, getTypes } from './services/api'
 import './style.css'
+import { randomColor } from './utils/colores'
 
 
 export let dataSafe 
@@ -24,7 +25,7 @@ const header = document.querySelector("#header")
 
 header.innerHTML = naviColor()
 app.innerHTML = inicio()
-
+randomColor()
 changeColor()
 initUsuario()
 fetchData()

@@ -1,34 +1,68 @@
-import { constrPokemon, typePokemon } from "../components/pokemons/pokemons";
-import { getTypes } from "../services/api"
+import { pokeCromo } from "../components/pokeCromo/pokeCromo";
+import { pokeHero } from "../components/pokeHero/pokeHero";
+import { constrPokemon, regionPokemon, typePokemon } from "../components/pokeNav/pokeNav";
+import { pokeTablon } from "../components/pokeTablon/pokeTablon";
+import { eventCharacter } from "../events/character";
+import { pokeSearch } from "../events/searchEvent";
+import {getTypes, todoPokemon} from "../services/api"
+import { searchCharacter } from "./searchCharacter";
 
 
 
 export const pokeType = async () => {
-    const characters = await getTypes();    
-    printCharacters(characters.results);
-
+    const app = document.querySelector("#app")
+    const types = await getTypes();    
+    printTypes(types.results);
+    app.innerHTML += pokeHero()
+    app.innerHTML += pokeTablon()
+    printCharacters(todoPokemon)
+    
+    pokeSearch()
 }
+
+
 
 export const printCharacters = (list) => {
    
-    const pokeTipo = document.querySelector("#pokeTipo")
-    list.forEach((character) => { 
-        
-        console.log(character);
-        pokeTipo.innerHTML += typePokemon(character)
+    const tabla = document.querySelector("#tablon")
+    list.forEach((pok) => { 
+        console.log(pok);
+        tabla.innerHTML += pokeCromo(pok)
     });
-    
-  };
+    eventCharacter()
+};
+
+
+export const printTypes = (list) => {
+   
+    const pokeTipo = document.querySelector("#pokeTipo")
+    list.forEach((type) => { 
+        pokeTipo.innerHTML += typePokemon(type)
+    });
+};
 
 
 
 
 
-export const pokePage = () => {
-    const pokeMap = pokeList.map((selPokemon) => {
-        return {
 
-        }
-    })
+
+
+/*
+export const pokeReg = async () => {
+    const Regions = await getRegions();    
+    printRegions(Regions.results);
+
 }
 
+export const printRegions = (list) => {
+   
+    const pokeRegion = document.querySelector("#pokeRegion")
+    list.forEach((region) => { 
+        pokeRegion.innerHTML += regionPokemon(region)
+    });
+    
+};
+
+
+*/

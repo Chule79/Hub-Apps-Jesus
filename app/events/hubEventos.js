@@ -1,5 +1,6 @@
-import { constrPokemon } from "../components/pokemons/pokemons"
+import { constrPokemon } from "../components/pokeNav/pokeNav"
 import { pokeType } from "../pages/pokePage"
+
 import { cleanPage } from "../utils/cleanPage"
 import { changeColor } from './colores'
 
@@ -27,7 +28,6 @@ export const eventPoke = () => {
     pokeApi.addEventListener("click", () => {
         const header = document.querySelector("#header")
         cleanPage(app)
-        
         header.innerHTML += constrPokemon()
         changeColor()
         pokeType()
