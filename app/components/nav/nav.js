@@ -5,3 +5,10 @@ export const naviColor = () => {
     `
     return navColor
 }
+
+export const naviHome = () => {
+    const btnhome = `
+        <button id="btnhome" class="btnhome">🏠</button>
+    `
+    return btnhome
+}

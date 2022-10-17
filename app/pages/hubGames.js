@@ -1,4 +1,5 @@
 import { hubGames } from "../components/hubJuegos/hub"
+import { naviHome } from "../components/nav/nav"
 import { eventCharacter } from "../events/character"
 import { addEvents } from "../events/hubEventos"
 import { dataSafe } from "../main"

@@ -5,8 +5,9 @@
     margin-top: 1rem;
 }
 
-@media screen and (max-width: 1000px){ 
-.btnColor{
-    margin-right: 0;
+.btnhome{
+    width: 3.125rem;
+    height: 60%;
+    margin-right: 6.25rem;
+    margin-top: 1rem;
 }
- }

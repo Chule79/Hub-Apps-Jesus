@@ -1,0 +1,61 @@
+.saludo{
+    grid-column: 4/10;
+    grid-row: 1;
+    align-self: center;
+    justify-self: center;
+}
+
+.pregunta{
+    grid-column: 3/11;
+    grid-row: 3;
+    align-self: center;
+    justify-self: center;
+}
+
+.respuestaA{
+    grid-column: 3/11;
+    grid-row: 5;
+    align-self: center;
+    
+}
+.respuestaB{
+    grid-column: 3/11;
+    grid-row: 6;
+    align-self: center;
+   
+}
+.respuestaC{
+    grid-column: 3/11;
+    grid-row: 7;
+    align-self: center;
+   
+}
+.respuestaD{
+    grid-column: 3/11;
+    grid-row: 8;
+    align-self: center;
+    
+}
+
+.cajaQuiz{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(16, 236, 38);
+    padding: 10%;
+    border: black 10px solid;
+    grid-column: 5/9;
+    grid-row: 5;
+    align-self: center;
+    justify-self: center;
+}
+
+
+.cajaError{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: rgb(16, 236, 38);
+    padding: 10%;
+    border: black 10px solid;
+    grid-column: 5/9;
+    grid-row: 5;
+    align-self: center;
+    justify-self: center;
+}

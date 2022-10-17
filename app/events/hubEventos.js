@@ -1,11 +1,12 @@
 import { constrPokemon } from "../components/pokeNav/pokeNav"
-import { constrQuiz } from "../components/quiz/quiz"
+import { correctAnswer } from "../components/quiz/quiz"
 import { tresRaya } from "../components/tresRaya/tresRaya"
 import { pokeType } from "../pages/pokePage"
+import { quizPage } from "../pages/quizPage"
 
 import { cleanPage } from "../utils/cleanPage"
 import { changeColor } from './colores'
-import { quizEvent } from "./quizEvent"
+import { comprobarPre, quizEvent } from "./quizEvent"
 
 
 export const addEvents = () => {
@@ -61,7 +62,8 @@ export const eventQuiz = () => {
     quizNeo.addEventListener("click", () => {
         const app = document.querySelector("#app")
         cleanPage(app)
-        app.innerHTML = constrQuiz()
-        quizEvent()
+        app.innerHTML = correctAnswer()
+        quizPage()
+        comprobarPre()
     })
 }
