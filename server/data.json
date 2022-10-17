@@ -8,17 +8,7 @@
         "La materia de la que están hechos los sueños." ,
         "Tomaré lo que ella está tomando."
         ],
-        "pregunta": "¿Cuál de estas citas es de la película 'Guardianes de la Galaxia'?" ,
-        "etiquetas":[
-        "película" ,
-        "citas" ,
-        "mcu" ,
-        "maravilla" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál de estas citas es de la película 'Guardianes de la Galaxia'?" 
         },
         {
         "id": "6239f8109129041bf3925cc3" ,
@@ -28,13 +18,7 @@
         "Guardia" ,
         "Dios"
         ],
-        "pregunta": "¿Qué palabra se usa en el alfabeto fonético de la OTAN para la letra G?" ,
-        "etiquetas":[
-        "conocimientos generales"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué palabra se usa en el alfabeto fonético de la OTAN para la letra G?"
         },
         {
             "id": "625006e00d86c8f685d80f03" ,
@@ -44,15 +28,7 @@
         "Pasta de hilo" ,
         "pasta de cinta"
         ],
-        "pregunta": "¿Qué tipo de pasta es la pastina?" ,
-        "etiquetas":[
-        "comida" ,
-        "italia" ,
-        "comida y bebida"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué tipo de pasta es la pastina?" 
         },
         {
             "id": "622a1c3b7cc59eab6f951613" ,
@@ -62,15 +38,7 @@
         "Mumperdickel" ,
         "gruñón fickel"
         ],
-        "pregunta": "¿Cuál es el nombre que se le da a un pan de centeno alemán negro?" ,
-        "etiquetas":[
-        "comida" ,
-        "alemania" ,
-        "comida y bebida"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál es el nombre que se le da a un pan de centeno alemán negro?" 
         },
         {
         
@@ -81,13 +49,7 @@
         "Mérica Bonnuci" ,
         "Amir Ícaro"
         ],
-        "pregunta": "¿Después de quién se nombró América?" ,
-        "etiquetas":[
-        "conocimientos generales"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Después de quién se nombró América?"
         },
         {
             "id": "622a1c3b7cc59eab6f951605" ,
@@ -97,13 +59,7 @@
         "Ajo" ,
         "Mango"
         ],
-        "pregunta": "'manzana del amor' es un apodo para qué comida?" ,
-        "etiquetas":[
-        "comida y bebida"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "'manzana del amor' es un apodo para qué comida?"
         },
         {
         "id": "622a1c3a7cc59eab6f951022" ,
@@ -113,14 +69,7 @@
         "cm" ,
         "Co"
         ],
-        "pregunta": "¿Cuál es el símbolo del cobre?" ,
-        "etiquetas":[
-        "quimica" ,
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál es el símbolo del cobre?" 
         },
         {
         "id": "622a1c3c7cc59eab6f951818" ,
@@ -130,15 +79,7 @@
         "Lübeck" ,
         "Rostock"
         ],
-        "pregunta": "¿Qué puerto marítimo del Báltico fue el centro de cohetes alemán durante la Segunda Guerra Mundial?" ,
-        "etiquetas":[
-        "guerra_mundial_2" ,
-        "alemania" ,
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué puerto marítimo del Báltico fue el centro de cohetes alemán durante la Segunda Guerra Mundial?"
         },
         {
         "id": "622a1c377cc59eab6f95066b" ,
@@ -148,13 +89,7 @@
         "Tobey Maguire" ,
         "Dennis Hopper"
         ],
-        "pregunta": "¿Qué actor ha aparecido en películas como Harry Potter y el cáliz de fuego y El discurso del rey?" ,
-        "etiquetas":[
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué actor ha aparecido en películas como Harry Potter y el cáliz de fuego y El discurso del rey?" 
         },
         {
         "id": "622a1c3d7cc59eab6f951ba2" ,
@@ -164,16 +99,7 @@
         "París" ,
         "Londres"
         ],
-        "pregunta": "En 'Solo en casa 2', ¿en qué ciudad se perdió Kevin?" ,
-        "etiquetas":[
-        "película" ,
-        "navidad" ,
-        "películas_de_culto" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "En 'Solo en casa 2', ¿en qué ciudad se perdió Kevin?" 
         },
         {
         "id": "62573f789da29df7b05f739e" ,
@@ -183,14 +109,7 @@
         "Indiana Jones y la última cruzada" ,
         "Día de la marmota"
         ],
-        "pregunta": "Nombra la película que coincida con el siguiente resumen de la trama: 'Un policía encubierto y un topo en la policía intentan identificarse mientras se infiltran en una pandilla'" ,
-        "etiquetas":[
-        "película" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "Nombra la película que coincida con el siguiente resumen de la trama: 'Un policía encubierto y un topo en la policía intentan identificarse mientras se infiltran en una pandilla'" 
         },
         {
         "id": "622a1c377cc59eab6f9504e1" ,
@@ -200,13 +119,7 @@
         "carrera" ,
         "la interrelación entre el funcionamiento físico de un organismo y su entorno"
         ],
-        "pregunta": "¿Qué es el estudio de la Omnología?" ,
-        "etiquetas":[
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué es el estudio de la Omnología?" 
         },
         {
         "id": "622a1c347cc59eab6f94fb4b" ,
@@ -216,15 +129,7 @@
         "Apocalipsis ahora" ,
         "Ruptura"
         ],
-        "pregunta": "¿Qué película ganó el Premio de la Academia a la Mejor Película en 1979?" ,
-        "etiquetas":[
-        "premios_academia" ,
-        "película" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué película ganó el Premio de la Academia a la Mejor Película en 1979?" 
         },
         {
         "id": "622a1c3c7cc59eab6f9519c0" ,
@@ -234,13 +139,7 @@
         "Cuba" ,
         "Indonesia"
         ],
-        "pregunta": "¿Qué país fue gobernado por Pol Pot, líder del partido Jemer Rojo?" ,
-        "etiquetas":[
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué país fue gobernado por Pol Pot, líder del partido Jemer Rojo?" 
         },
         {
         "id": "6256991c9da29df7b05f72b2" ,
@@ -250,18 +149,7 @@
         "Tony Stark" ,
         "Thor"
         ],
-        "pregunta": "¿Chiwetel Ejiofor interpreta el papel de qué personaje en Marvel Cinematic Unvierse?" ,
-        "etiquetas":[
-        "mcu" ,
-        "película" ,
-        "actuando" ,
-        "maravilla" ,
-        "cómics" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Chiwetel Ejiofor interpreta el papel de qué personaje en Marvel Cinematic Unvierse?"
         },
         {
         "id": "622a1c3c7cc59eab6f951811" ,
@@ -271,17 +159,7 @@
         "Palacio de Charlottenburg" ,
         "El muro de Berlin"
         ],
-        "pregunta": "¿Qué edificio en Berlín fue incendiado en 1933?" ,
-        "etiquetas":[
-        "alemania" ,
-        "guerra_mundial_2" ,
-        "1930" ,
-        "edificios" ,
-        "eventos"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué edificio en Berlín fue incendiado en 1933?"
         },
         {
         "id": "622a1c397cc59eab6f950fa9" ,
@@ -291,13 +169,7 @@
         "Alan Shepard" ,
         "Neil Armstrong"
         ],
-        "pregunta": "¿Quién fue el primer hombre en ir dos veces al espacio?" ,
-        "etiquetas":[
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Quién fue el primer hombre en ir dos veces al espacio?" 
         },
         {
         "id": "622a1c347cc59eab6f94faa3" ,
@@ -307,16 +179,7 @@
         "Catherine Keener" ,
         "Samantha Morton"
         ],
-        "pregunta": "¿Quién ganó el Premio de la Academia de 1999 a la Mejor Actriz de Reparto por interpretar el papel de Lisa Rowe en Girl, Interrupted?" ,
-        "etiquetas":[
-        "premios_academia" ,
-        "película" ,
-        "actuando" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Quién ganó el Premio de la Academia de 1999 a la Mejor Actriz de Reparto por interpretar el papel de Lisa Rowe en Girl, Interrupted?"
         },
         {
         "id": "622a1c347cc59eab6f94fa8f" ,
@@ -326,16 +189,7 @@
         "Marina de Tavira" ,
         "Emma Stone"
         ],
-        "pregunta": "¿Quién ganó el Premio de la Academia 2018 a la Mejor Actriz de Reparto por interpretar el papel de Sharon Rivers en If Beale Street Could Talk?" ,
-        "etiquetas":[
-        "actuando" ,
-        "película" ,
-        "premios_academia" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Quién ganó el Premio de la Academia 2018 a la Mejor Actriz de Reparto por interpretar el papel de Sharon Rivers en If Beale Street Could Talk?"
         },
         {
         "id": "622a1c347cc59eab6f94f92c" ,
@@ -345,15 +199,7 @@
         "Tiempos rápidos en Ridgemont High" ,
         "El silencio de los corderos"
         ],
-        "pregunta": "¿Qué película contiene el personaje 'Blondie'?" ,
-        "etiquetas":[
-        "película" ,
-        "personajes_ficticios" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué película contiene el personaje 'Blondie'?" 
         },
         {
         "id": "6242cb49d543524f1b19c91f" ,
@@ -363,15 +209,7 @@
         "Una cría" ,
         "Un trapo"
         ],
-        "pregunta": "¿Cuál es la palabra para un grupo de sabuesos?" ,
-        "etiquetas":[
-        "palabras" ,
-        "animales" ,
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál es la palabra para un grupo de sabuesos?" 
         },
         {
         "id": "622a1c347cc59eab6f94fa65" ,
@@ -381,16 +219,7 @@
         "Roberto de Niro" ,
         "Philip Seymour Hoffmann"
         ],
-        "pregunta": "¿Quién ganó el Premio de la Academia 2012 al Mejor Actor de Reparto por interpretar el papel del Dr. King Schultz en Django Unchained?" ,
-        "etiquetas":[
-        "premios_academia" ,
-        "actuando" ,
-        "película" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Quién ganó el Premio de la Academia 2012 al Mejor Actor de Reparto por interpretar el papel del Dr. King Schultz en Django Unchained?" 
         },
         {
         "id": "622a1c347cc59eab6f94f909" ,
@@ -400,15 +229,7 @@
         "Los Pájaros" ,
         "Fiebre de sábado por la noche"
         ],
-        "pregunta": "¿Qué película contiene el personaje 'Scarlett O'Hara'?" ,
-        "etiquetas":[
-        "película" ,
-        "personajes_ficticios" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué película contiene el personaje 'Scarlett O'Hara'?" 
         },
         {
         "id": "622a1c377cc59eab6f9504c4" ,
@@ -418,14 +239,7 @@
         "nutrición" ,
         "el significado y la aplicación de las palabras"
         ],
-        "pregunta": "¿Qué es el estudio de la Parasitología?" ,
-        "etiquetas":[
-        "palabras" ,
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "fácil" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué es el estudio de la Parasitología?"
         },
         {
         "id": "62573f939da29df7b05f73a3" ,
@@ -435,14 +249,7 @@
         "Después de la muerte de un magnate, los reporteros se apresuran a descubrir el significado de su declaración final" ,
         "Un diseñador de autos y un piloto luchan para construir un auto de carreras revolucionario"
         ],
-        "pregunta": "¿Cuál es la trama de la película El Resplandor?" ,
-        "etiquetas":[
-        "película" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál es la trama de la película El Resplandor?" 
         },
         {
         "id": "622a1c377cc59eab6f950568" ,
@@ -452,14 +259,7 @@
         "la edad de la Tierra" ,
         "bacterias"
         ],
-        "pregunta": "¿Qué es el estudio de la Demografía?" ,
-        "etiquetas":[
-        "palabras" ,
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué es el estudio de la Demografía?" 
         },
         {
         "id": "625698c49da29df7b05f729c" ,
@@ -469,36 +269,17 @@
         "Ego" ,
         "Drax el destructor"
         ],
-        "pregunta": "¿Vin Diesel interpreta el papel de qué personaje en Marvel Cinematic Unvierse?" ,
-        "etiquetas":[
-        "mcu" ,
-        "película" ,
-        "actuando" ,
-        "maravilla" ,
-        "cómics" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Vin Diesel interpreta el papel de qué personaje en Marvel Cinematic Unvierse?" 
         },
         {
         "id": "622a1c347cc59eab6f94fc2c" ,
-        "correct": "\"Sabes silbar, ¿verdad, Steve? Simplemente junta los labios y sopla.\"" ,
+        "correct": "Sabes silbar, ¿verdad, Steve? Simplemente junta los labios y sopla." ,
         "incorrect":[
-        "\"Madre de misericordia, ¿es este el final de Rico?\"" ,
-        "\"¿Es seguro?\"" ,
-        "\"Hoy, me considero el hombre más afortunado sobre la faz de la tierra.\""
+        "Madre de misericordia, ¿es este el final de Rico?" ,
+        "¿Es seguro?" ,
+        "Hoy, me considero el hombre más afortunado sobre la faz de la tierra."
         ],
-        "pregunta": "¿Cuál de estas citas es de la película 'Tener y no tener'?" ,
-        "etiquetas":[
-        "película" ,
-        "citas" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál de estas citas es de la película 'Tener y no tener'?" 
         },
         {
         "id": "622a1c3c7cc59eab6f951868" ,
@@ -508,16 +289,7 @@
         "España" ,
         "Dinamarca"
         ],
-        "pregunta": "¿Dónde vivía el verdadero San Nicolás?" ,
-        "etiquetas":[
-        "navidad" ,
-        "cristianismo" ,
-        "gente" ,
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Dónde vivía el verdadero San Nicolás?" 
         },
         {
         
@@ -528,13 +300,7 @@
         "Cariño" ,
         "Colina"
         ],
-        "pregunta": "¿Qué palabra se usa en el alfabeto fonético de la OTAN para la letra H?" ,
-        "etiquetas":[
-        "conocimientos generales"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué palabra se usa en el alfabeto fonético de la OTAN para la letra H?" 
         },
         {
         "id": "622a1c367cc59eab6f95040b" ,
@@ -544,14 +310,7 @@
         "Cassi" ,
         "Brigantes"
         ],
-        "pregunta": "¿De qué tribu era Boadicea la cabeza?" ,
-        "etiquetas":[
-        "clásicos" ,
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿De qué tribu era Boadicea la cabeza?" 
         },
         {
         "id": "625698949da29df7b05f7290" ,
@@ -561,18 +320,7 @@
         "Cate Blanchett" ,
         "Evangeline Lilly"
         ],
-        "pregunta": "¿Qué actor interpreta el papel de la Agente Peggy Carter en el Universo Cinematográfico de Marvel?" ,
-        "etiquetas":[
-        "mcu" ,
-        "película" ,
-        "actuando" ,
-        "maravilla" ,
-        "cómics" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué actor interpreta el papel de la Agente Peggy Carter en el Universo Cinematográfico de Marvel?" 
         },
         {
             "id": "6271644e1ba117625baac956" ,
@@ -582,14 +330,7 @@
         "Tequila" ,
         "Mamá Juana"
         ],
-        "pregunta": "¿Cuál de estas es una bebida popular en Austria?" ,
-        "etiquetas":[
-        "beber" ,
-        "alcohol"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál de estas es una bebida popular en Austria?" 
         },
         {
         
@@ -600,13 +341,7 @@
         "latín" ,
         "Avéstico"
         ],
-        "pregunta": "¿Qué idioma nativo habría hablado Jesucristo?" ,
-        "etiquetas":[
-        "conocimientos generales"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué idioma nativo habría hablado Jesucristo?" 
         },
         {
         "id": "622a1c3a7cc59eab6f9510dc" ,
@@ -616,13 +351,7 @@
         "calamar" ,
         "Albatros"
         ],
-        "pregunta": "Un __________ gigante del Pacífico puede pasar todo su cuerpo a través de una abertura no más grande que el tamaño de su pico",
-        "etiquetas":[
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "Un __________ gigante del Pacífico puede pasar todo su cuerpo a través de una abertura no más grande que el tamaño de su pico"
         },
         {
         
@@ -633,15 +362,7 @@
         "Bosque de Bedbury" ,
         "Hoodwood"
         ],
-        "pregunta": "¿Dónde supuestamente vivía Robin Hood?" ,
-        "etiquetas":[
-        "Reino Unido" ,
-        "personajes_ficticios" ,
-        "conocimientos generales"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Dónde supuestamente vivía Robin Hood?" 
         },
         {
             "id": "624c6144badf21197f98f770" ,
@@ -651,14 +372,7 @@
         "Camerún" ,
         "Guayana"
         ],
-        "pregunta": "Shawarma es un plato que está más asociado con qué parte del mundo?" ,
-        "etiquetas":[
-        "comida" ,
-        "comida y bebida"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "Shawarma es un plato que está más asociado con qué parte del mundo?" 
         },
         {
         "id": "622a1c3b7cc59eab6f951791" ,
@@ -668,18 +382,7 @@
         "Carlos el Calvo" ,
         "Napoleón Bonaparte"
         ],
-        "pregunta": "¿Qué rey de Francia era conocido como El Rey Sol?" ,
-        "etiquetas":[
-        "francia" ,
-        "líderes" ,
-        "apodos" ,
-        "edades_medias" ,
-        "medieval" ,
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué rey de Francia era conocido como El Rey Sol?" 
         },
         {
         "id": "622a1c347cc59eab6f94fb1e" ,
@@ -689,16 +392,7 @@
         "Jane Fonda" ,
         "Shirley MacLaine"
         ],
-        "pregunta": "¿Quién ganó el premio de la Academia de 1977 a la mejor actriz principal por interpretar el papel de Annie Hall en Annie Hall?" ,
-        "etiquetas":[
-        "actuando" ,
-        "película" ,
-        "premios_academia" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Quién ganó el premio de la Academia de 1977 a la mejor actriz principal por interpretar el papel de Annie Hall en Annie Hall?"
         },
         {
         "id": "622a1c367cc59eab6f9503ad" ,
@@ -708,13 +402,7 @@
         "Catedral de San Pablo" ,
         "La torre de Londres"
         ],
-        "pregunta": "¿Qué edificio de Londres fue destruido por un incendio en noviembre de 1936?" ,
-        "etiquetas":[
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué edificio de Londres fue destruido por un incendio en noviembre de 1936?" 
         },
         {
         "id": "62611ffd4b176d54800e3d7f" ,
@@ -724,14 +412,7 @@
         "1991" ,
         "1997"
         ],
-        "pregunta": "¿Cuándo fue el concierto de Live Aid?" ,
-        "etiquetas":[
-        "eventos" ,
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuándo fue el concierto de Live Aid?" 
         },
         {
         
@@ -742,16 +423,7 @@
         "Fraude" ,
         "Soborno"
         ],
-        "pregunta": "Gangster Al Capone, jefe de los bajos fondos de Chicago, fue finalmente encarcelado durante 11 años por qué crimen?" ,
-        "etiquetas":[
-        "crimen" ,
-        "Estados Unidos" ,
-        "chicago" ,
-        "conocimientos generales"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "Gangster Al Capone, jefe de los bajos fondos de Chicago, fue finalmente encarcelado durante 11 años por qué crimen?" 
         },
         {
         "id": "622a1c377cc59eab6f950700" ,
@@ -761,13 +433,7 @@
         "Emma Thompson" ,
         "Maggie Smith"
         ],
-        "pregunta": "¿Qué actor ha aparecido en películas como Gravity y Speed?" ,
-        "etiquetas":[
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué actor ha aparecido en películas como Gravity y Speed?"
         },
         {
         "id": "622a1c3c7cc59eab6f9519ba" ,
@@ -777,13 +443,7 @@
         "Ilyana" ,
         "Ivanka"
         ],
-        "pregunta": "¿Qué hija del zar Nicolás II se rumoreaba falsamente que escapó de la muerte en la Revolución Rusa?" ,
-        "etiquetas":[
-        "historia"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué hija del zar Nicolás II se rumoreaba falsamente que escapó de la muerte en la Revolución Rusa?" 
         },
         {
         "id": "622a1c347cc59eab6f94fa7a" ,
@@ -793,16 +453,7 @@
         "Morgan Freeman" ,
         "Vicente Gardenia"
         ],
-        "pregunta": "¿Quién ganó el Premio de la Academia de 1987 al Mejor Actor de Reparto por interpretar el papel de Jim Malone en Los intocables?" ,
-        "etiquetas":[
-        "premios_academia" ,
-        "película" ,
-        "actuando" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Quién ganó el Premio de la Academia de 1987 al Mejor Actor de Reparto por interpretar el papel de Jim Malone en Los intocables?"
         },
         {
         "id": "622a1c347cc59eab6f94f971" ,
@@ -812,15 +463,7 @@
         "Mad Max" ,
         "En el paseo marítimo"
         ],
-        "pregunta": "¿Qué película contiene el personaje 'Harry Lime'?" ,
-        "etiquetas":[
-        "personajes_ficticios" ,
-        "literatura" ,
-        "cine_y_tv"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué película contiene el personaje 'Harry Lime'?" 
         },
         {
             "id": "6250071a0d86c8f685d80f14" ,
@@ -830,15 +473,7 @@
         "Pasta de hilo" ,
         "Pasta tubular"
         ],
-        "pregunta": "¿Qué tipo de pasta es el tortellini?" ,
-        "etiquetas":[
-        "comida" ,
-        "italia" ,
-        "comida y bebida"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿Qué tipo de pasta es el tortellini?" 
         },
         {
             "id": "6271649a1ba117625baac968" ,
@@ -848,14 +483,7 @@
         "Canelazo" ,
         "Sangría"
         ],
-        "pregunta": "¿Cuál de estas es una bebida popular en Etiopía?" ,
-        "etiquetas":[
-        "beber" ,
-        "alcohol"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál de estas es una bebida popular en Etiopía?" 
         },
         {
             "id": "627164621ba117625baac95c" ,
@@ -865,14 +493,7 @@
         "Cuba" ,
         "Filipinas"
         ],
-        "pregunta": "¿En qué país la sangría es una bebida popular?" ,
-        "etiquetas":[
-        "beber" ,
-        "alcohol"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "medio" ,
-        "regiones": [ ]
+        "pregunta": "¿En qué país la sangría es una bebida popular?" 
         },
         {
         "id": "6242cb20d543524f1b19c90f" ,
@@ -882,15 +503,7 @@
         "Una visita obligada" ,
         "Un grupo"
         ],
-        "pregunta": "¿Cuál es la palabra para un grupo de alces?" ,
-        "etiquetas":[
-        "palabras" ,
-        "animales" ,
-        "Ciencias"
-        ],
-        "escribe": "opción múltiple" ,
-        "dificultad": "duro" ,
-        "regiones": [ ]
+        "pregunta": "¿Cuál es la palabra para un grupo de alces?" 
         }
-        ]
+    ]
 }

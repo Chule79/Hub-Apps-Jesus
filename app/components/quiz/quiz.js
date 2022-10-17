@@ -1,7 +1,13 @@
 export const constrQuiz =  (nikname, pregunta, respuestas) =>{
     return `
         <div id="cajaQuiz" class="cajaQuiz">
-            <h3>Hola! ${nikname} Bienvenido a QuizNeo</h3>
+           <button id="preBtn">Siguiente</button>
+        </div> 
+    
+    `
+}  
+
+/*`<h3>Hola! ${nikname} Bienvenido a QuizNeo</h3>
             <div id="pregunta" class="pregunta">
                 ${pregunta}
             </div>
@@ -10,9 +16,4 @@ export const constrQuiz =  (nikname, pregunta, respuestas) =>{
                <a>b) ${respuestas[1]}</a>
                <a>c) ${respuestas[2]}</a>
                <a>d) ${respuestas[3]}</a>
-            </div>
-
-        </div> 
-    
-    `
-} 
+            </div>`*/

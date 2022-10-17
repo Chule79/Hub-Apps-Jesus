@@ -5,6 +5,7 @@ import { pokeType } from "../pages/pokePage"
 
 import { cleanPage } from "../utils/cleanPage"
 import { changeColor } from './colores'
+import { quizEvent } from "./quizEvent"
 
 
 export const addEvents = () => {
@@ -61,5 +62,6 @@ export const eventQuiz = () => {
         const app = document.querySelector("#app")
         cleanPage(app)
         app.innerHTML = constrQuiz()
+        quizEvent()
     })
 }
