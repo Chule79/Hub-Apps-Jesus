@@ -1,5 +1,5 @@
 .pokeNav{ 
-    grid-column: 1/12;
+    grid-column: 1/13;
     grid-row: 1;
     justify-self: center;
     width: 100%;
@@ -15,7 +15,7 @@ ul{
     flex-wrap: nowrap;
     list-style: none;
     text-decoration: none;
-    grid-column: 5/12;
+    grid-column: 4/13;
     justify-self: center;
     align-self: center;
     width: 100%;
@@ -29,12 +29,17 @@ ul{
 .pokeRegion{
     align-self: center;
     width: 100%;
+    
 }
 
 
 .searchPokemon{
     align-self: center;
     
+}
+.menuPoke{
+    grid-column: 2/3;
+    align-self: center;
 }
 
 input[type=search]  {

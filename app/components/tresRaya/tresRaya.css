@@ -1,0 +1,45 @@
+.uno {
+    border: 5px black solid;
+    grid-row: 3/5 ;
+    grid-column: 3/5 ;
+}
+.dos {
+    border: 5px black solid;
+    grid-row: 3/5 ;
+    grid-column: 5/7;
+}
+.tres {
+    border: 5px black solid;
+    grid-row: 3/5 ;
+    grid-column: 7/9;
+}
+.cuatro {
+    border: 5px black solid;
+    grid-row: 5/7 ;
+    grid-column: 3/5 ;
+}
+.cinco {
+    border: 5px black solid;
+    grid-row: 5/7 ;
+    grid-column: 5/7;
+}
+.seis {
+    border: 5px black solid;
+    grid-row: 5/7 ;
+    grid-column: 7/9;
+}
+.siete {
+    border: 5px black solid;
+    grid-row: 7/9 ;
+    grid-column: 3/5 ;
+}
+.ocho {
+    border: 5px black solid;
+    grid-row: 7/9 ;
+    grid-column: 5/7;
+}
+.nueve {
+    border: 5px black solid;
+    grid-row: 7/9 ;
+    grid-column: 7/9;
+}

@@ -25,7 +25,7 @@ export const constrPokemon = () =>{
     const pokedex = `
             <div id= "pokeNav" class= "pokeNav">
                 <input type="checkbox" id="menuPoke">
-                <label for="menuPoke">  
+                <label for="menuPoke" class="menuPoke">  
                       <img class="pokeLogo" src="pokeLogo.png">
                 </label>
                 <ul id='navi' class='navi'>

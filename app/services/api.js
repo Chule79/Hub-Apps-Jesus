@@ -82,3 +82,18 @@ export const getRegions = (listR) => {
    });
 }
 */
+
+
+
+
+
+
+export const getPreguntas = async () => {
+    try {
+        const takeData = await fetch("http://localhost:8080/preguntas")
+        const transData = await takeData.json()
+        return transData
+    } catch (error) {
+        console.log(error);
+    }
+}

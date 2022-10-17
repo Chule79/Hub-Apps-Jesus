@@ -2,7 +2,7 @@ import { inicio } from './components/inicio/inicio'
 import { naviColor } from './components/nav/nav'
 import { changeColor } from './events/colores'
 import { initUsuario } from './events/inicioEvent'
-import {  getData, getTypes } from './services/api'
+import {  getData, getPreguntas, getTypes } from './services/api'
 import './style.css'
 import { randomColor } from './utils/colores'
 
@@ -13,6 +13,17 @@ export const fetchData = async () => {
     const data = await getData()
     dataSafe = data.results;
     return data 
+  }
+
+
+
+
+export let todasPreguntas = []
+
+  export const fetchPreguntas = async () =>{
+    const data = await getPreguntas()
+    todasPreguntas = data
+    return data
   }
 
 
@@ -29,3 +40,4 @@ randomColor()
 changeColor()
 initUsuario()
 fetchData()
+fetchPreguntas()
