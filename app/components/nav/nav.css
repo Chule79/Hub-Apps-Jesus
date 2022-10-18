@@ -3,6 +3,10 @@
     height: 60%;
     margin-right: 6.25rem;
     margin-top: 1rem;
+    background-color: transparent;
+    border: 0;
+    font-size: 40px;
+    padding: 0;
 }
 
 .btnhome{

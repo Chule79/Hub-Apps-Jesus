@@ -43,3 +43,16 @@
     grid-row: 7/9 ;
     grid-column: 7/9;
 }
+
+p{
+    font-size: 100px;
+    text-align: center;
+}
+
+.btnReload{
+    grid-row: 11 ;
+    grid-column: 5/7;
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+}

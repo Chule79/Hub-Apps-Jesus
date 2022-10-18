@@ -1,10 +1,11 @@
+
 .tablon{
     background: rgb(208,221,255);
     background: linear-gradient(215deg, rgba(208,221,255,1) 0%, rgb(138, 126, 169) 100%);
     border: black solid 1px;
     border-radius: 50px;
     
-    grid-row: 6/13;
+    grid-row: 5/13;
     grid-column: 2/12;
     
     display: flex;
@@ -12,6 +13,7 @@
     justify-content: center;
     gap: 1rem;
     overflow: scroll;
+    margin: 10px;
 }
 
 .tablon::-webkit-scrollbar{

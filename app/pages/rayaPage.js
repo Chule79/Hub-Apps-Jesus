@@ -1,2 +1,2 @@
 
-const combos = [ [0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]];
+const combos = [ ["uno","dos","tres"], ["cuatro","cinco","seis"], ["siete","ocho","nueve"], ["uno","cuatro","siete"], ["dos","cinco","siete"], ["tres","seis","nueve"], ["uno","cinco","nueve"], ["tres","cinco","siete"],];

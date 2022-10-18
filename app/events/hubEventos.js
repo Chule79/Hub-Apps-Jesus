@@ -7,6 +7,7 @@ import { quizPage } from "../pages/quizPage"
 import { cleanPage } from "../utils/cleanPage"
 import { changeColor } from './colores'
 import { comprobarPre, quizEvent } from "./quizEvent"
+import { juegaRaya } from "./tresRayaEvent"
 
 
 export const addEvents = () => {
@@ -22,11 +23,12 @@ export const addEvents = () => {
 export const eventRaya = () => {
     const rayero = document.querySelector("#tresRaya")
     rayero.addEventListener("click", () =>{
-        console.log("hola");
+        
         const app = document.querySelector("#app")
         cleanPage(app)
-        app.innerHTML += tresRaya()
+        
         changeColor()
+        juegaRaya()
     })} 
 
 
