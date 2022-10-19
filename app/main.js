@@ -1,6 +1,6 @@
 import { inicio } from './components/inicio/inicio'
-import { naviColor } from './components/nav/nav'
-import { changeColor } from './events/colores'
+import { naviColor, naviHome } from './components/nav/nav'
+import { changeColor, home } from './events/colores'
 import { initUsuario } from './events/inicioEvent'
 import {  getData, getPreguntas, getTypes } from './services/api'
 import './style.css'
@@ -32,12 +32,19 @@ export let todasPreguntas = []
 
 
 const app = document.querySelector("#app")
-const header = document.querySelector("#header")
 
-header.innerHTML = naviColor()
+
+
+const header = document.querySelector("header")
+
+header.innerHTML += naviColor()
+header.innerHTML += naviHome()
+
+
 app.innerHTML = inicio()
 randomColor()
 changeColor()
 initUsuario()
 fetchData()
 fetchPreguntas()
+home()

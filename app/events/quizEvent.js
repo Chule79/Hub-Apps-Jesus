@@ -13,7 +13,6 @@ export const quizEvent = () => {
     const btnCont = document.querySelector("#preBtn")
     btnCont.addEventListener("click", () => {
         contador += 1 
-        console.log(contador);
         quizPage()
     })
 }

@@ -1,11 +1,14 @@
+import { hangManCons } from "../components/hangMan/hangMan"
+import { naviHome } from "../components/nav/nav"
 import { constrPokemon } from "../components/pokeNav/pokeNav"
 import { correctAnswer } from "../components/quiz/quiz"
 import { tresRaya } from "../components/tresRaya/tresRaya"
+import { hangPage } from "../pages/hangPage"
 import { pokeType } from "../pages/pokePage"
 import { quizPage } from "../pages/quizPage"
 
 import { cleanPage } from "../utils/cleanPage"
-import { changeColor } from './colores'
+import { changeColor, home } from './colores'
 import { comprobarPre, quizEvent } from "./quizEvent"
 import { juegaRaya } from "./tresRayaEvent"
 
@@ -14,6 +17,7 @@ export const addEvents = () => {
     eventPoke()
     eventRaya()
     eventQuiz()
+    eventHang()
 }
 
 
@@ -56,7 +60,9 @@ export const eventTopo = () => {
 
 export const eventHang = () => {
     const hangMan = document.querySelector("#hangMan")
-    hangMan.addEventListener("click", () => "")
+    hangMan.addEventListener("click", () => {
+        hangPage()
+    })
 }
 
 export const eventQuiz = () => {

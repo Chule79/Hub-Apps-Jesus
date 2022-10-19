@@ -13,6 +13,7 @@ export const getGames = () => {
     app.innerHTML = hubGames(user)
     addEvents()  
     dataPoke(dataSafe) 
+    
 } 
     
    

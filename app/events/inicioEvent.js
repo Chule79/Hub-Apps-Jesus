@@ -1,5 +1,6 @@
-import { naviHome } from "../components/nav/nav";
+
 import { getGames } from "../pages/hubGames";
+import { cleanPage } from "../utils/cleanPage";
 
 export const initUsuario = () => {
     const btnInit = document.querySelector("#btnIniciar")
@@ -12,6 +13,8 @@ export const initUsuario = () => {
         } else {
             localStorage.setItem(`nickName`, `${dtUser}`);
             getGames()
+            const btnhome = document.querySelector('#btnhome')
+            btnhome.style.color = "unset"
         }
     } )
 }
