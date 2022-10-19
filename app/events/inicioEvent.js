@@ -14,7 +14,7 @@ export const initUsuario = () => {
             localStorage.setItem(`nickName`, `${dtUser}`);
             getGames()
             const btnhome = document.querySelector('#btnhome')
-            btnhome.style.color = "unset"
+            btnhome.style.display = "flex"
         }
     } )
 }

@@ -12,8 +12,10 @@
     width: 3.125rem;
     grid-column: 2;
     grid-row: 1;
-    background-color: transparent;
+    display: none;
     border: 0;
     font-size: 40px;
     padding: 0;
+    color: unset;
+    background-color: transparent;
 }
