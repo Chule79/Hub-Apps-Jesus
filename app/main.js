@@ -2,7 +2,7 @@ import { inicio } from './components/inicio/inicio'
 import { naviColor, naviHome } from './components/nav/nav'
 import { changeColor, home } from './events/colores'
 import { initUsuario } from './events/inicioEvent'
-import {  getData, getPreguntas, getTypes } from './services/api'
+import {  dataPoke, getData, getPreguntas, getTypes } from './services/api'
 import './style.css'
 import { randomColor } from './utils/colores'
 
@@ -42,9 +42,9 @@ header.innerHTML += naviHome()
 
 
 app.innerHTML = inicio()
+fetchData()
 randomColor()
 changeColor()
 initUsuario()
-fetchData()
 fetchPreguntas()
 home()
