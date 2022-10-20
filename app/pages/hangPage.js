@@ -63,13 +63,14 @@ const descompositor = (pasar) => {
                 }else{
                     vidas--
                     contVidas.innerHTML = hangContador(vidas)
+                    if(vidas == 0){
+                        const videoHang = document.querySelector("#hangmanFoto")
+                        videoHang.innerHTML = hangFinal()
+                        setTimeout(muerte, 5500);
+                    } 
                 }
             } 
-            else{
-                const videoHang = document.querySelector("#hangmanFoto")
-                videoHang.innerHTML = hangFinal()
-                setTimeout(muerte, 5500);
-            } 
+           
             
     })   
         
