@@ -1,10 +1,10 @@
 import { topoCromo, topoDiv, topoScore } from "../components/topos/topo"
-import { score, topoEvent } from "../events/toposEvent"
+import { score, topoEvent, velocidad } from "../events/toposEvent"
 import { cleanPage } from "../utils/cleanPage"
 
 export const topoPage = () =>{
     topoEvent()
-    setTimeout(pintTopo, 900)
+    setTimeout(pintTopo, `${velocidad}` )
 }  
 let topos = 0 
 
@@ -24,7 +24,7 @@ const pintTopo  = () =>{
     topillo.style.right = `${ancho}%`
     topos++
     topoPage()
-    setTimeout(borraTopo, 2500)
+    borraTopo()
     
 }
 
