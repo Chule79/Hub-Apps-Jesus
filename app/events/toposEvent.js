@@ -2,6 +2,15 @@ import { topoScore } from "../components/topos/topo"
 
 export let velocidad = 2000
 export let score = 0
+
+export const initTopo = () =>{
+    topoEvent()
+    velocidad = 2000
+    score = 0 
+    const puntos = document.querySelector("#scoreDiv")
+    puntos.innerHTML = topoScore(score)
+}
+
 export const topoEvent = () =>{
     const todoTopos = document.querySelectorAll(".topoCromo")
     todoTopos.forEach((topete)=>{

@@ -1,6 +1,10 @@
 import { topoCromo, topoDiv, topoScore } from "../components/topos/topo"
-import { score, topoEvent, velocidad } from "../events/toposEvent"
+import { topoEvent, velocidad } from "../events/toposEvent"
 import { cleanPage } from "../utils/cleanPage"
+
+
+
+
 
 export const topoPage = () =>{
     topoEvent()

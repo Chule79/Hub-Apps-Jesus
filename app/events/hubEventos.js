@@ -1,18 +1,21 @@
 import { hangManCons } from "../components/hangMan/hangMan"
 import { naviHome } from "../components/nav/nav"
+import { parejas } from "../components/parejas/parejas"
 import { constrPokemon } from "../components/pokeNav/pokeNav"
 import { correctAnswer } from "../components/quiz/quiz"
 import { topoDiv, topoScore } from "../components/topos/topo"
 import { tresRaya } from "../components/tresRaya/tresRaya"
 import { hangPage } from "../pages/hangPage"
+import { activaBaraja, creaParejas } from "../pages/parejasPage"
 import { pokeType } from "../pages/pokePage"
 import { quizPage } from "../pages/quizPage"
 import { topoPage } from "../pages/topos"
 
 import { cleanPage } from "../utils/cleanPage"
 import { changeColor, home } from './colores'
+import { parejasEvent } from "./parejasEvent"
 import { comprobarPre, quizEvent } from "./quizEvent"
-import { score } from "./toposEvent"
+import { initTopo, score } from "./toposEvent"
 import { juegaRaya } from "./tresRayaEvent"
 
 
@@ -22,6 +25,7 @@ export const addEvents = () => {
     eventQuiz()
     eventHang()
     eventTopo()
+    eventMemory()
 }
 
 
@@ -34,7 +38,6 @@ export const eventRaya = () => {
         
         const app = document.querySelector("#app")
         cleanPage(app)
-        
         changeColor()
         juegaRaya()
     })} 
@@ -43,6 +46,8 @@ export const eventRaya = () => {
 export const eventMemory = () => {
     const memoryGame = document.querySelector("#memoryGame")
     memoryGame.addEventListener("click", () =>{ 
+        creaParejas()
+        parejasEvent()
     }) 
 }
 
@@ -66,6 +71,7 @@ export const eventTopo = () => {
         const puntos = document.querySelector("#scoreDiv")
         puntos.innerHTML = topoScore(score)
         topoPage()
+        initTopo()
     })
 }
 

@@ -1,0 +1,35 @@
+.intetoCartas{
+    grid-row: 1;
+    grid-column: 1/11;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+.intetoCartas > p{
+    font-size: 20px;
+}
+
+.mesaCartas{
+    grid-column: 2/12;
+    grid-row: 3/12;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+
+.cartaDibu{
+    background-color: #290100;
+    background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
+    border: 2px solid black;
+   
+}
+
+.btnBaraja{
+    grid-row: 1;
+    grid-column: 11;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
