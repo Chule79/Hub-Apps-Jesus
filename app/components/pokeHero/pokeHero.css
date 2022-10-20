@@ -13,7 +13,13 @@
     width: 100%;
     height: auto;
     overflow:scroll;
+    
 }
+
+.pokeInf::-webkit-scrollbar{
+    display: none;
+}
+
 .pokeImg{
     background: rgb(208,221,255);
     background: linear-gradient(215deg, rgba(208,221,255,1) 0%, rgb(138, 126, 169) 100%);
@@ -32,5 +38,5 @@
 
 .stats{
     font-size: 10px;
-    
+    text-align: left;
 }

@@ -1,0 +1,28 @@
+.topoTabla{
+   
+    grid-column: 1/13;
+    grid-row: 2/13;
+    padding: 5px;
+    position: relative;
+}
+
+.topoCromo{
+    position: absolute;
+    width: 5.25rem
+}
+.topoCromo > img {
+    width: 100%;
+}
+
+.scoreDiv{
+    grid-column: 1/13;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    
+    
+}
+
+.textScore{
+    font-size: 20px;
+}
