@@ -17,8 +17,8 @@ export const topoDiv = (a) => {
 
 export const topoCromo = (a) => {
     return `
-        <div class="topoCromo" id="${a}">
-            <img src="topo.png">
+        <div class="topoCromo" id="${a}" >
+            <img src="tank.gif" draggable="false">
         </div>
     `
 }
@@ -29,3 +29,5 @@ export const topoScore = (a) => {
         <p class="textScore">Score: ${a}</p>
     `
 }
+
+

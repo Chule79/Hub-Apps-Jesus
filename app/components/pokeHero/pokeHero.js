@@ -4,13 +4,17 @@ export const insertPokeInf = (inf, stat, type) => {
     
     const pInf = `
         <h3>Name = ${inf.name}</h3>
-        <p class="stats">Hp = ${stat[0].base_stat}</p>
-        <p class="stats">Attack = ${stat[1].base_stat}</p>
-        <p class="stats">Defense = ${stat[2].base_stat}</p>
-        <p class="stats">Especial.A = ${stat[3].base_stat}</p>
-        <p class="stats">Especial.D = ${stat[4].base_stat}</p>
-        <p class="stats">Speed = ${stat[5].base_stat}</p>
-        <p class="stats">Type = ${type[0].type.name}</p>
+        <div>
+            <p class="stats">Hp = ${stat[0].base_stat}</p>
+            <p class="stats">Attack = ${stat[1].base_stat}</p>
+            <p class="stats">Defense = ${stat[2].base_stat}</p>
+        </div>
+        <div>
+            <p class="stats">Especial.A = ${stat[3].base_stat}</p>
+            <p class="stats">Especial.D = ${stat[4].base_stat}</p>
+            <p class="stats">Speed = ${stat[5].base_stat}</p>
+            <p class="stats">Type = ${type[0].type.name}</p>
+        </div>
     `
     console.log(stat);
     return pInf
@@ -20,7 +24,7 @@ export const insertPokeInf = (inf, stat, type) => {
 export const  insertPokeImg = (img) => {
     
     const pImg = `
-        <img src="${img.sprites.front_default}">
+        <img src="${img.sprites.other.home.front_default}" draggable="false">
     `
     console.log(pImg);
     return pImg

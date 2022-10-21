@@ -9,12 +9,18 @@ export const initTopo = () =>{
     score = 0 
     const puntos = document.querySelector("#scoreDiv")
     puntos.innerHTML = topoScore(score)
+    
 }
 
+
+
+
 export const topoEvent = () =>{
+
     const todoTopos = document.querySelectorAll(".topoCromo")
     todoTopos.forEach((topete)=>{
         topete.addEventListener("click", () => {
+            
             score += 100
             topete.remove()
             const puntos = document.querySelector("#scoreDiv")
@@ -41,5 +47,10 @@ export const topoEvent = () =>{
                                                     
         })
         
-    })
+    })   
+
 }
+
+
+
+

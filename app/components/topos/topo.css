@@ -1,6 +1,10 @@
 .topoTabla{
-   
-    grid-column: 1/13;
+    cursor: url(../../public/mirilla.png)  53 50, auto;
+    background-color: #e6ba81;
+    background-image: url("https://www.transparenttextures.com/patterns/fresh-snow.png");
+    border: 1rem solid rgb(50%, 50%, 50%);
+    border-style: ridge;
+    grid-column: 2/12;
     grid-row: 2/13;
     padding: 5px;
     position: relative;
@@ -8,8 +12,11 @@
 
 .topoCromo{
     position: absolute;
-    width: 5.25rem
+    width: 7.25rem;
+    user-select: none;
 }
+
+
 .topoCromo > img {
     width: 100%;
 }
@@ -19,10 +26,16 @@
     grid-row: 1;
     justify-self: center;
     align-self: center;
-    
+    user-select: none;
+    border: 1rem solid rgb(50%, 50%, 50%);
+    border-style: ridge;
+    background-color: rgb(179, 175, 175); ;
+    padding: 3px;
     
 }
 
 .textScore{
     font-size: 20px;
 }
+
+

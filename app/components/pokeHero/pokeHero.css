@@ -2,7 +2,7 @@
 
 .pokeInf{
     background: rgb(208,221,255);
-    background: linear-gradient(215deg, rgba(208,221,255,1) 0%, rgb(138, 126, 169) 100%);
+    background: linear-gradient(215deg, rgb(208, 255, 214) 0%, rgb(158, 201, 184) 100%);
     border: black solid 1px;
     border-radius: 5%;
     font-size: 10px;
@@ -10,9 +10,8 @@
     grid-row: 2/5;
     grid-column: 3/6;
     line-height:2;
-    width: 100%;
-    height: auto;
     overflow:scroll;
+    box-shadow: rgba(0, 42, 7, 0.4) 5px 5px, rgba(0, 88, 9, 0.3) 10px 10px, rgba(0, 115, 12, 0.2) 15px 15px, rgba(0, 162, 16, 0.1) 20px 20px, rgba(9, 255, 0, 0.05) 25px 25px;border-radius: 50px;
     
 }
 
@@ -22,7 +21,7 @@
 
 .pokeImg{
     background: rgb(208,221,255);
-    background: linear-gradient(215deg, rgba(208,221,255,1) 0%, rgb(138, 126, 169) 100%);
+    background: linear-gradient(215deg, rgb(208, 255, 214) 0%, rgb(158, 201, 184) 100%);
     border: black solid 1px;
     border-radius: 5%;
     align-content: center;
@@ -30,6 +29,7 @@
     display: flex;
     grid-row: 2/5;
     grid-column: 8/11;
+    box-shadow: rgba(0, 42, 7, 0.4) 5px 5px, rgba(0, 88, 9, 0.3) 10px 10px, rgba(0, 115, 12, 0.2) 15px 15px, rgba(0, 162, 16, 0.1) 20px 20px, rgba(9, 255, 0, 0.05) 25px 25px;border-radius: 50px;
 }
 .pokeInf h3{
     font-size: 10px;
@@ -39,4 +39,5 @@
 .stats{
     font-size: 10px;
     text-align: left;
+    
 }

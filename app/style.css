@@ -14,12 +14,15 @@
     box-sizing: none;
     font-family: ArcadeFont ;
     font-weight: bold;
-    
+    user-select: none;
 }
 
 header{
     display: grid;
     grid-template-columns: repeat(12) 1fr;
     grid-template-rows: 1fr;
+    user-select: none;
 }
-
+body{
+    background-image: url("https://www.transparenttextures.com/patterns/dark-brick-wall.png");
+}

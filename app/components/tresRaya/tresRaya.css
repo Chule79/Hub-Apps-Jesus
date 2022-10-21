@@ -1,53 +1,172 @@
-.uno {
-    border: 5px black solid;
-    grid-row: 3/5 ;
-    grid-column: 3/5 ;
-}
-.dos {
-    border: 5px black solid;
-    grid-row: 3/5 ;
-    grid-column: 5/7;
-}
-.tres {
-    border: 5px black solid;
-    grid-row: 3/5 ;
-    grid-column: 7/9;
-}
-.cuatro {
-    border: 5px black solid;
-    grid-row: 5/7 ;
-    grid-column: 3/5 ;
-}
-.cinco {
-    border: 5px black solid;
-    grid-row: 5/7 ;
-    grid-column: 5/7;
-}
-.seis {
-    border: 5px black solid;
-    grid-row: 5/7 ;
-    grid-column: 7/9;
-}
-.siete {
-    border: 5px black solid;
-    grid-row: 7/9 ;
-    grid-column: 3/5 ;
-}
-.ocho {
-    border: 5px black solid;
-    grid-row: 7/9 ;
-    grid-column: 5/7;
-}
-.nueve {
-    border: 5px black solid;
-    grid-row: 7/9 ;
-    grid-column: 7/9;
+@font-face{
+    font-family: TizaFont;
+    src: url(../../public/fonts/tiza.ttf);
+    font-display: block;
 }
 
-p{
+
+
+
+
+
+.uno {
+    border-bottom: whitesmoke solid 2px;
+    border-right: whitesmoke solid 2px;
+    border-top:peru solid 15px;
+    border-left: peru solid 15px;
+    grid-row: 3/5 ;
+    grid-column: 3/5 ;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+
+}
+.dos {
+    border-bottom: whitesmoke solid 2px;
+    border-right: whitesmoke solid 2px;
+    border-top:peru solid 15px;
+    border-left: whitesmoke solid 2px;
+    grid-row: 3/5 ;
+    grid-column: 5/7;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.tres {
+    border-bottom: whitesmoke solid 2px;
+    border-right: peru solid 15px;
+    border-top:peru solid 15px;
+    border-left: whitesmoke solid 2px;
+    grid-row: 3/5 ;
+    grid-column: 7/9;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.cuatro {
+    border-bottom: whitesmoke solid 2px;
+    border-right: whitesmoke solid 2px;
+    border-top:whitesmoke solid 2px;
+    border-left: peru solid 15px;
+    grid-row: 5/7 ;
+    grid-column: 3/5 ;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.cinco {
+    border-bottom: whitesmoke solid 2px;
+    border-right: whitesmoke solid 2px;
+    border-top:whitesmoke solid 2px;
+    border-left: whitesmoke solid 2px;
+    grid-row: 5/7 ;
+    grid-column: 5/7;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.seis {
+    border-bottom: whitesmoke solid 2px;
+    border-right: peru solid 15px;
+    border-top:whitesmoke solid 2px;
+    border-left: whitesmoke solid 2px;
+    grid-row: 5/7 ;
+    grid-column: 7/9;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.siete {
+    border-bottom: peru solid 15px;
+    border-right: whitesmoke solid 2px;
+    border-top:whitesmoke solid 2px;
+    border-left: peru solid 15px;
+    grid-row: 7/9 ;
+    grid-column: 3/5 ;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.ocho {
+    border-bottom: peru solid 15px;
+    border-right: whitesmoke solid 2px;
+    border-top:whitesmoke solid 2px;
+    border-left: whitesmoke solid 2px;
+    grid-row: 7/9 ;
+    grid-column: 5/7;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+}
+.nueve {
+    border-bottom: peru solid 15px;
+    border-right: peru solid 15px;
+    border-top:whitesmoke solid 2px;
+    border-left: whitesmoke solid 2px;
+    grid-row: 7/9 ;
+    grid-column: 7/9;
+    background-color: #415548;
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim-3.png");
+    
+}
+
+
+.uno p{
     font-size: 100px;
     text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
 }
+
+.dos p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.tres p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.cuatro p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.cinco p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.seis p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.siete p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.ocho p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+.nueve p{
+    font-size: 100px;
+    text-align: center;
+    font-family: TizaFont;
+    color: aliceblue;
+}
+
+
 
 .btnReload{
     grid-row: 11 ;

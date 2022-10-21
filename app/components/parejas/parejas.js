@@ -17,7 +17,7 @@ export const parejas = (a) => {
 export const parejaCromo= (a, b) => {
      return `
         <div class="cartaDibu"  id="cartaDibu" >
-                <img class="imgPareja"  src="${b}" id="${a}">
+                <img class="imgPareja"  src="${b}" id="${a}" draggable="false">
                 </img>
         </div>
     `

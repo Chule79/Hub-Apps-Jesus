@@ -52,21 +52,3 @@ export const printTypes = (list) => {
 
 
 
-/*
-export const pokeReg = async () => {
-    const Regions = await getRegions();    
-    printRegions(Regions.results);
-
-}
-
-export const printRegions = (list) => {
-   
-    const pokeRegion = document.querySelector("#pokeRegion")
-    list.forEach((region) => { 
-        pokeRegion.innerHTML += regionPokemon(region)
-    });
-    
-};
-
-
-*/

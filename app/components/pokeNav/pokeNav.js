@@ -33,18 +33,12 @@ export const constrPokemon = () =>{
                     <li>
                         <div class='searchPokemon'>
                             <input id="searchInput" type="search" name="q" placeholder="Find Pokemon"  >
-                            <button id="btSearch" type="button">Search</button>
+                            
                         </div>
                     </li>
                     <li> 
                         <select name="pokeTipo" class="pokeTipo" id="pokeTipo">
                             <option value="seleccione">Tipo</option>
-                        </select>
-                    </li>
-                    <li> 
-                        <select name="pokeRegion" class="pokeRegion" id="pokeRegion">
-                            <option value="seleccione">Region</option>
-
                         </select>
                     </li>
                 </ul>

@@ -4,8 +4,8 @@ import { cleanPage } from "../utils/cleanPage";
 
 export const pokeSearch = () =>{
     
-    const btnSearch = document.querySelector("#btSearch")
-    btnSearch.addEventListener("click", () =>{
+    const valueSearch = document.querySelector("#searchInput")
+    valueSearch.addEventListener("input", () =>{
         const valueSearch = document.querySelector("#searchInput").value  
         const nameSearch = valueSearch.toUpperCase() 
         let valorBusca = nameSearch;

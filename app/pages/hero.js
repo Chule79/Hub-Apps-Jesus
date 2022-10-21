@@ -9,9 +9,7 @@ export const getSelectCharacter =  (array, seleccionado) => {
     cleanPage(pokeInf)
     const pokeImg = document.querySelector("#pokeImg")
     cleanPage(pokeImg)
-    console.log(seleccionado)
-    console.log(array)
-
+    
     let statsSelec = []
     let typeSelec = []
 
@@ -25,7 +23,6 @@ export const getSelectCharacter =  (array, seleccionado) => {
             const  sacarTyps = pokemon.types.forEach(typ => {
                 typeSelec.push(typ)
             });
-            console.log(statsSelec);
             printSelectCharacters(pokemon, statsSelec, typeSelec)
         }
     };

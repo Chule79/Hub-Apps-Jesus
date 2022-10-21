@@ -1,9 +1,7 @@
 
 .tablon{
-    background: rgb(208,221,255);
-    background: linear-gradient(215deg, rgba(208,221,255,1) 0%, rgb(138, 126, 169) 100%);
-    border: black solid 1px;
-    border-radius: 50px;
+    box-shadow: rgba(0, 42, 7, 0.4) 5px 5px, rgba(0, 88, 9, 0.3) 10px 10px, rgba(0, 115, 12, 0.2) 15px 15px, rgba(0, 162, 16, 0.1) 20px 20px, rgba(9, 255, 0, 0.05) 25px 25px;border-radius: 50px;
+    background-image: url( pokeFondo.png);
     
     grid-row: 5/13;
     grid-column: 2/12;
