@@ -1,8 +1,12 @@
 .saludo{
-    grid-column: 4/10;
+    grid-column: 1/13;
     grid-row: 1;
     align-self: center;
     justify-self: center;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 .pregunta{
@@ -10,32 +14,60 @@
     grid-row: 3;
     align-self: center;
     justify-self: center;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    padding: 3rem;
+    border-radius: 25px;
+    border: 5px solid blue;
 }
 
 .respuestaA{
     grid-column: 3/11;
     grid-row: 5;
     align-self: center;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    padding: 1rem;
+    border-radius: 25px;
+    border: black 2px solid;
+    
     
 }
 .respuestaB{
     grid-column: 3/11;
     grid-row: 6;
     align-self: center;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    padding: 1rem;
+    border-radius: 25px;
+    border: black 2px solid;
    
 }
 .respuestaC{
     grid-column: 3/11;
     grid-row: 7;
     align-self: center;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    padding: 1rem;
+    border-radius: 25px;
+    border: black 2px solid;
    
 }
 .respuestaD{
     grid-column: 3/11;
     grid-row: 8;
     align-self: center;
+    background-color: #a6a6a6;
+    background-image: url("https://www.transparenttextures.com/patterns/nice-snow.png");
+    padding: 1rem;
+    border-radius: 25px;
+    border: black 2px solid;
     
 }
+
+
 
 .cajaQuiz{
     background-color: rgba(0, 0, 0, 0.8);
@@ -58,4 +90,45 @@
     grid-row: 5;
     align-self: center;
     justify-self: center;
+}
+
+
+
+
+
+/*--------------------------------------------------------------------------------------------------------------*/
+
+.respuestaA:hover{
+    scale: 1.1;
+    
+    
+}
+.respuestaB:hover{
+    scale: 1.1;
+   
+}
+.respuestaC:hover{
+    scale: 1.1;
+   
+}
+.respuestaD:hover{
+    scale: 1.1;
+    
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){ 
+
+    .pregunta{
+     font-size: 10px;
+     padding: 20px;
+    }
+    
+  a{
+    font-size: 10px;
+  } 
+
 }
