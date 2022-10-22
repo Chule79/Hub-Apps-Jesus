@@ -19,12 +19,12 @@ export const juegaRaya = () => {
     tablero.forEach((casilla) => {
         todasCasillas.push(casilla.className)
         casilla.addEventListener("click", () => {
-            if (turnos === 0) {
+            if (turnos % 2 == 0) {
                 casilla.style.pointerEvents = "none";
                 const dibujoO = document.createTextNode("O")
                 const fichaO = document.createElement("p")
                 fichaO.appendChild(dibujoO)
-                turnos += 1
+                turnos++
                 casilla.appendChild(fichaO)
                 jugador.push(casilla.className)
 
@@ -43,32 +43,14 @@ export const juegaRaya = () => {
                 })
             } 
             
-            
-            
-
-
-
 
             else {
-                const total = [...jugador, ...maquina]
-                const restantes = todasCasillas.filter(el => !total.includes(el));
-                console.log(restantes);
-                
-                let moviminetoE = restantes[Math.floor(Math.random() * restantes.length)]
-                console.log(moviminetoE);
-                
-                    
-
-
-
-
-
                 casilla.style.pointerEvents = "none";
             
                 const dibujoX = document.createTextNode("X")
                 const fichaX = document.createElement("p")
                 fichaX.appendChild(dibujoX)
-                turnos -= 1
+                turnos++
                 casilla.appendChild(fichaX)
                 maquina.push(casilla.className)
 
@@ -86,11 +68,11 @@ export const juegaRaya = () => {
                     })
                 })
                 
-            }
+            } tablas(turnos)
         })
-
-        
+       
     })
+    
 }
 
 
@@ -109,3 +91,8 @@ const reloadRaya = () => {
 
 
 
+const tablas = (a) =>{
+    if (a == 9) {
+        alert("Quedasteis en Tablas")
+    }
+}
