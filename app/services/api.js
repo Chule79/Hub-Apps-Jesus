@@ -63,7 +63,7 @@ export const getTypes = async () => {
 
 export const getPreguntas = async () => {
     try {
-        const takeData = await fetch("http://localhost:8080/preguntas")
+        const takeData = await fetch("https://hub-service.onrender.com/preguntas")
         const transData = await takeData.json()
         return transData
     } catch (error) {
