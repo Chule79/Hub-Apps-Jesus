@@ -1,19 +1,18 @@
-import { parejas, parejasError, puntuacionParejas } from "../components/parejas/parejas"
+import { parejas, parejasError, parejasGanar, puntuacionParejas } from "../components/parejas/parejas"
 import { creaParejas } from "../pages/parejasPage"
 import { cleanPage } from "../utils/cleanPage"
 
 export const parejasEvent = () => {
-    let caso = 5
+    let vidas = 7
     let carta1 = 0
     let carta2 = 0
     let acc = 0
-    
+    let ganar = 0
     const cogerCartas = document.querySelectorAll(".imgPareja")
 
-    if (caso > 0) {
         const panelVidas = document.querySelector("#intentoCartas")
         cleanPage(panelVidas)
-        panelVidas.innerHTML = puntuacionParejas(caso)
+        panelVidas.innerHTML = puntuacionParejas(vidas)
         cogerCartas.forEach((select) => {
         select.addEventListener("click", () => {
             
@@ -27,10 +26,28 @@ export const parejasEvent = () => {
                 carta2 = select.id
                 acc++ 
                 if (carta1 == carta2) {
-
+                    ganar++
+                    if (ganar == cogerCartas.length /2) {
+                        const app = document.querySelector("#app")
+                        cleanPage(app)
+                        app.innerHTML = parejasGanar()
+                        ganaste()  
+                    }
+                    
                 } else{ 
-                    caso--
+                   
+                    vidas--
+                    const panelVidas = document.querySelector("#intentoCartas")
+                    cleanPage(panelVidas)
+                    panelVidas.innerHTML = puntuacionParejas(vidas)
+                        if (vidas == 0) {
+                            const app = document.querySelector("#app")
+                            cleanPage(app)
+                            app.innerHTML = parejasError()
+                            muerto()
+                        }
                     setTimeout(comprobador,1000)
+
                   
                 } 
 
@@ -41,16 +58,8 @@ export const parejasEvent = () => {
 
         
     })
-}
-else{
-    const app = document.querySelector("#app")
-    cleanPage(app)
-    app.innerHTML = parejasError()
-    muerto()
 
-
-}
-    const comprobador = () => {
+ const comprobador = () => {
     cogerCartas.forEach((item) => {
 
         if (item.id == carta1) {
@@ -72,4 +81,10 @@ else{
 const muerto = () => {
     const btnerror = document.querySelector("#parejaError")
     btnerror.addEventListener("click", () => creaParejas())
+}
+
+
+const ganaste = () => {
+    const btnganar = document.querySelector("#parejaCorrect")
+    btnganar.addEventListener("click", () => creaParejas())
 }

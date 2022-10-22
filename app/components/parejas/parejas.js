@@ -36,6 +36,16 @@ export const parejasError = () => {
 }
 
 
+export const parejasGanar = () => {
+    return `
+        <div id="cajaError" class="cajaError">
+            <h2>Eres un genio!!!!!😛😜 </h2>
+           <button id="parejaCorrect">Volver a jugar</button>
+        </div> 
+    `
+}
+
+
 export const puntuacionParejas = (a) => {
     return `
         <p class="intentos" class="intentos">Te quedan ${a} intentos</p>

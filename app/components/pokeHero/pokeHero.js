@@ -13,8 +13,8 @@ export const insertPokeInf = (inf, stat, type) => {
             <p class="stats">Especial.A = ${stat[3].base_stat}</p>
             <p class="stats">Especial.D = ${stat[4].base_stat}</p>
             <p class="stats">Speed = ${stat[5].base_stat}</p>
-            <p class="stats">Type = ${type[0].type.name}</p>
         </div>
+        <p class="tipo">Type = ${type[0].type.name}</p>
     `
     console.log(stat);
     return pInf

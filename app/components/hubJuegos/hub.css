@@ -1,66 +1,94 @@
 .bienVenida {
-    grid-column: 5/9;
+    grid-column: 1/13;
     grid-row: 1;
     justify-self: center;
+    font-size: 1.5rem;
+    
     
 }
 
 .tresRaya{
-    background-color: rgb(250, 176, 5);
-    border: black solid 2px;
-    grid-column: 2/5;
+    background-color: #428752;
+    background-image: url(fondo.gif);
+    border: rgba(0,255,30) solid 5px;
+    color: rgba(0,255,30);
+    grid-column: 3/6;
     grid-row: 2/5;
     justify-self: center;
     width: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    
 }
 
 .memoryGame{
-    background-color: rgb(130, 201, 30);
-    border: black solid 2px;
-    grid-column: 2/5;
+    background-color: #428752;
+    background-image: url(fondo.gif);
+    border: rgba(0,255,30) solid 5px;
+    color: rgba(0,255,30);
+    grid-column: 3/6;
     grid-row: 6/9;
     justify-self: center;
     width: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
 }
 
 
 .pokeApi{
-    background-color: rgb(250, 82, 82);
-    border: black solid 2px;
-    grid-column: 2/5;
+    background-color: #428752;
+    background-image: url(fondo.gif);
+    border: rgba(0,255,30) solid 5px;
+    color: rgba(0,255,30);
+    grid-column: 3/6;
     grid-row: 10/13;
     justify-self: center;
     width: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
 }
 
 
 .topo{
-    background-color: rgb(21, 170, 191);
-    border: black solid 2px;
-    grid-column: 9/12;
+    background-color: #428752;
+    background-image: url(fondo.gif);
+    border: rgba(0,255,30) solid 5px;
+    color: rgba(0,255,30);
+    grid-column: 8/11;
     grid-row: 2/5;
     justify-self: center;
     width: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
 }
 
 
 .hangMan{
-    background-color: rgb(190, 75, 219);
-    border: black solid 2px;
-    grid-column: 9/12;
+    background-color: #428752;
+    background-image: url(fondo.gif);
+    border: rgba(0,255,30) solid 5px;
+    color: rgba(0,255,30);
+    grid-column: 8/11;
     grid-row: 6/9;
     justify-self: center;
     width: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
 }
 
 
 .quizNeo{
-    background-color: rgb(253, 126, 20);
-    border: black solid 2px;
-    grid-column: 9/12;
+    background-color: #428752;
+    background-image: url(fondo.gif);
+    border: rgba(0,255,30) solid 5px;
+    color: rgba(0,255,30);
+    grid-column: 8/11;
     grid-row: 10/13;
     justify-self: center;
     width: 100%;
+    border-radius: 20%;
+    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    
 }
 
 
@@ -69,6 +97,46 @@ h3 {
     font-size: 30px;
     text-align: center;
     margin-top: 18%;
+   
 }
 
 
+.tresRaya:hover{
+    
+    box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+}
+.memoryGame:hover{
+    box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+}
+
+
+.pokeApi:hover{
+    box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+}
+
+
+.topo:hover{
+    box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+}
+
+
+.hangMan:hover{
+    box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+}
+
+
+.quizNeo:hover{
+    box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+}

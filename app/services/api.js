@@ -59,33 +59,6 @@ export const getTypes = async () => {
 
 //--------------------------------------------------------------------------------------------------------------------------------
 //--------------------------------------------------------------------------------------------------------------------------------
-//--------------------------------------------------------------------------------------------------------------------------------
-
-/*
-export let todasRegiones = []
-
-export const getRegions = (listR) => {
-
-    listR.forEach((region) => {
-       const takeRegion = async (region) => {
-        
-           try{
-               const dataRegion = await fetch(region.location_area_encounters)
-               const transRegion = await dataRegion.json()
-               todasRegiones.push(transRegion)
-               return transRegion}
-           catch (error) {
-               console.log(error);
-           }
-       }
-       takeRegion(region)
-   });
-}
-*/
-
-
-
-
 
 
 export const getPreguntas = async () => {

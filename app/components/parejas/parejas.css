@@ -1,9 +1,12 @@
 .intetoCartas{
     grid-row: 1;
-    grid-column: 1/11;
-    font-size: 20px;
+    grid-column: 4/7;
     align-self: center;
     justify-self: center;
+    background-color:#D5A616 ;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 .intetoCartas > p{
     font-size: 20px;
@@ -15,21 +18,27 @@
     display: flex;
     flex-wrap: wrap;
     gap: 4rem;
+    justify-content: center
 }
 
 
 .cartaDibu{
     background-color: #290100;
     background-image: url("https://www.transparenttextures.com/patterns/argyle.png");
-    border: 2px solid black;
-   
+    border: 9px solid rgb(28, 25, 58);
+    padding: 2.5rem 0.5rem;
+    justify-self: center;
 }
 
 .btnBaraja{
     grid-row: 1;
-    grid-column: 11;
+    grid-column: 8/10;
     font-size: 20px;
     align-self: center;
     justify-self: center;
+    background-color:#D5A616 ;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
 }
 
