@@ -3,8 +3,6 @@
     grid-row: 1;
     justify-self: center;
     font-size: 1.5rem;
-    
-    
 }
 
 .tresRaya{
@@ -17,7 +15,10 @@
     justify-self: center;
     width: 100%;
     border-radius: 20%;
-    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    box-shadow: 0px 0px 61px 24px rgba(0,255,30,0.42);
+    justify-content: center;
+    display: flex;
+    align-items: center
     
 }
 
@@ -31,7 +32,10 @@
     justify-self: center;
     width: 100%;
     border-radius: 20%;
-    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    box-shadow: 0px 0px 61px 24px rgba(0,255,30,0.42);
+    justify-content: center;
+    display: flex;
+    align-items: center
 }
 
 
@@ -45,7 +49,10 @@
     justify-self: center;
     width: 100%;
     border-radius: 20%;
-    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    box-shadow: 0px 0px 61px 24px rgba(0,255,30,0.42);
+    justify-content: center;
+    display: flex;
+    align-items: center
 }
 
 
@@ -59,7 +66,10 @@
     justify-self: center;
     width: 100%;
     border-radius: 20%;
-    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    box-shadow: 0px 0px 61px 24px rgba(0,255,30,0.42);
+    justify-content: center;
+    display: flex;
+    align-items: center
 }
 
 
@@ -73,7 +83,10 @@
     justify-self: center;
     width: 100%;
     border-radius: 20%;
-    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    box-shadow: 0px 0px 61px 24px rgba(0,255,30,0.42);
+    justify-content: center;
+    display: flex;
+    align-items: center
 }
 
 
@@ -87,56 +100,98 @@
     justify-self: center;
     width: 100%;
     border-radius: 20%;
-    box-shadow: 0px 0px 111px 44px rgba(0,255,30,0.42);
+    box-shadow: 0px 0px 61px 24px rgba(0,255,30,0.42);
+    justify-content: center;
+    display: flex;
+    align-items: center
     
 }
-
 
 
 h3 {
     font-size: 30px;
     text-align: center;
-    margin-top: 18%;
-   
+    
 }
 
+
+/*-----------------------------------------------------------------------------------------------------------------*/
 
 .tresRaya:hover{
     
     box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+  
 }
 .memoryGame:hover{
     box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+  
 }
 
 
 .pokeApi:hover{
     box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+
 }
 
 
 .topo:hover{
     box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+   
 }
 
 
 .hangMan:hover{
     box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+  
 }
 
 
 .quizNeo:hover{
     box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -webkit-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
-    -moz-box-shadow: -2px 12px 67px 33px rgba(128,49,49,1) inset;
+    
 }
+
+
+
+@media screen and (max-width: 1000px){ 
+  
+    
+    .bienVenida{
+        font-size: 10px;
+        align-self: center;
+    }
+
+
+    .tresRaya{
+        grid-column: 2/6;
+    }
+    
+    .memoryGame{
+        grid-column: 2/6;
+    }
+    
+    
+    .pokeApi{
+        grid-column: 2/6;
+    }
+    
+    
+    .topo{
+        grid-column: 8/12;
+    }
+    
+    
+    .hangMan{
+        grid-column: 8/12;
+    }
+    
+    
+    .quizNeo{
+        grid-column: 8/12;  
+    }
+
+    h3 {
+        font-size: 10px;
+        text-align: center; 
+    }
+ }

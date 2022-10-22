@@ -1,24 +1,20 @@
 
-.cromoImg{
-    width: 100%;
-    height: 200px;
-    display: flex;
+.cromo{
     justify-content: center;
-    border: solid 4px rgb(43, 180, 63) ;
 }
 
-.cromoImg img{
-    object-fit: cover;
+.cromo img{
     height: 100%;
     width: 100%;
 }
 
-.cromo p{
-    padding: 0%;
-    margin: 0;
-    width: 100%;
-    color: #000000;
-    font-weight: bold;
+
+
+
+@media screen and (max-width: 1000px){ 
+    .cromo{
+        width: 60px;
+    }
+    
+
 }
-
-

@@ -48,6 +48,6 @@ export const parejasGanar = () => {
 
 export const puntuacionParejas = (a) => {
     return `
-        <p class="intentos" class="intentos">Te quedan ${a} intentos</p>
+        <p class="intentos" class="intentos">Intentos: ${a}</p>
     `
 }

@@ -15,7 +15,7 @@ ul{
     flex-wrap: nowrap;
     list-style: none;
     text-decoration: none;
-    grid-column: 4/13;
+    grid-column: 5/13;
     justify-self: center;
     align-self: center;
     width: 100%;
@@ -26,37 +26,23 @@ ul{
     width: 100%;
 }
 
-.pokeRegion{
-    align-self: center;
-    width: 100%;
-    
-}
-
-
-.searchPokemon{
-    align-self: center;
-    
-}
 .menuPoke{
     grid-column: 2/3;
     align-self: center;
 }
 
 input[type=search]  {
-       width: 50%; 
-}
-
-ul > li {
-    padding-top: 1rem;
-}
-
-ul > li > a{
     text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 2rem;
-    -webkit-text-stroke: 0.01px rgb(0, 255, 12);  
-    color: black;
+    height: 2rem;
+    border-radius: 20px;
+    margin-right: 2rem;
+}
+
+select {
+    text-align: center;
+    height: 2rem;
+    border-radius: 20px;
+    margin-right: 2rem;
 }
 
 img{
@@ -73,6 +59,9 @@ input[type=checkbox]  {
 
 
 
+
+
+    
 @media screen and (max-width: 1000px){  
     ul{
     display: none;
@@ -104,6 +93,15 @@ input[type=checkbox]  {
     .searchPokemon{
         align-self: center;
         width: 80%;
+    }
+
+    .pokeNav{ 
+        grid-column: 1/13;
+        grid-row: 1/2;
+        justify-self: center;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
 }
