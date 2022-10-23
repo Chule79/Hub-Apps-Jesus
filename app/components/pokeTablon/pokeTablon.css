@@ -23,7 +23,7 @@
 
 
 
-@media screen and (max-width: 1000px){ 
+@media screen and (max-width: 800px){ 
     .tablon{
         grid-row: 9/13;
         grid-column: 2/12;
