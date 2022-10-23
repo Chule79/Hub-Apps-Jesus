@@ -7,7 +7,7 @@
 
 .tresRaya{
     background-color: #428752;
-    background-image: url(fondo.gif);
+    background-image: url(../../public/fondo.gif);
     border: rgba(0,255,30) solid 5px;
     color: rgba(0,255,30);
     grid-column: 3/6;
@@ -24,7 +24,7 @@
 
 .memoryGame{
     background-color: #428752;
-    background-image: url(fondo.gif);
+    background-image: url(../../public/fondo.gif);
     border: rgba(0,255,30) solid 5px;
     color: rgba(0,255,30);
     grid-column: 3/6;
@@ -41,7 +41,7 @@
 
 .pokeApi{
     background-color: #428752;
-    background-image: url(fondo.gif);
+    background-image: url(../../public/fondo.gif);
     border: rgba(0,255,30) solid 5px;
     color: rgba(0,255,30);
     grid-column: 3/6;
@@ -58,7 +58,7 @@
 
 .topo{
     background-color: #428752;
-    background-image: url(fondo.gif);
+    background-image: url(../../public/fondo.gif);
     border: rgba(0,255,30) solid 5px;
     color: rgba(0,255,30);
     grid-column: 8/11;
@@ -75,7 +75,7 @@
 
 .hangMan{
     background-color: #428752;
-    background-image: url(fondo.gif);
+    background-image: url(../../public/fondo.gif);
     border: rgba(0,255,30) solid 5px;
     color: rgba(0,255,30);
     grid-column: 8/11;
@@ -92,7 +92,7 @@
 
 .quizNeo{
     background-color: #428752;
-    background-image: url(fondo.gif);
+    background-image: url(../../public/fondo.gif);
     border: rgba(0,255,30) solid 5px;
     color: rgba(0,255,30);
     grid-column: 8/11;
