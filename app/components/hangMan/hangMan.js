@@ -64,7 +64,7 @@ export const hangError = () => {
 export const hangFinal = () => {
     return `
     <video autoplay muted id="myVideo">
-        <source src="../../public/hangMan.mp4" type="video/mp4">
+        <source src="hangMan.mp4" type="video/mp4">
     </video>
     `
 }
